@@ -1,0 +1,14 @@
+dload-oc notes
+
+read the list.html file
+find each instance of "listen.m3u?show= 
+  - get the show # from that text
+for each show # found:
+    download each m3u file - get the MP3 URL from its contents
+        Newest - https://www.wfmu.org/listen.m3u?show=116169&archive=219060
+                https://www.wfmu.org/listen.m3u?show=15511&archive=20974
+        Oldest - https://www.wfmu.org/listen.m3u?show=15752&archive=21535
+        just need the show # - like:   https://www.wfmu.org/listen.m3u?show=15752
+    save the list of MP3 URLs
+for each mp3 URL:
+    download each MP3 file to the mp3 folder
