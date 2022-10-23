@@ -1,5 +1,5 @@
 # download-wmfu-shows
-Python script which downloads WEMFU shows as MP3s.
+Python script which downloads WMFU radio shows as MP3s.
 
 To run:
 Copy the .PY file local.
